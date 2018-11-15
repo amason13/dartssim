@@ -112,7 +112,7 @@ class Match:
         else:
             return 1/prob
         
-    def simulate(self, num_sims = 10000):
+    def simulate(self, num_sims = 100000):
         
         for i in range(int(num_sims/2)):
             if i%1000 == 0: # to track progress of simulation
