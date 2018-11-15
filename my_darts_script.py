@@ -1,5 +1,5 @@
-from match import Match
-from player import Player
+from dartssim.match import Match
+from dartssim.player import Player
 
 #### Todays 1st match
 clayton = Player(name = 'Clayton', treble_pct=0.38, single_pct=0.522, big_miss_pct=0.038,small_miss_pct=0.061,
