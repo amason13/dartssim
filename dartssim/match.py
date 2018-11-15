@@ -156,7 +156,7 @@ class Match:
             line = (unique_legs1[i]+unique_legs1[i+1])/2
             unders = cum_leg_freq[i]
             overs = 1-unders
-            print('Under/Over', line,':', "{0:.4f}".format(self.odds(unders)),'/',"{0:.4f}".format(self.odds(overs)))
+            print('Over/Under', line,':', "{0:.4f}".format(self.odds(overs)),'/',"{0:.4f}".format(self.odds(unders)))
         
         ### For player2 to throw 1st in 1st leg   
         # Display win odds
@@ -182,7 +182,7 @@ class Match:
             line = (unique_legs2[i]+unique_legs2[i+1])/2
             unders = cum_leg_freq[i]
             overs = 1-unders
-            print('Under/Over', line,':', "{0:.4f}".format(self.odds(unders)),'/',"{0:.4f}".format(self.odds(overs)))
+            print('Over/Under', line,':', "{0:.4f}".format(self.odds(overs)),'/',"{0:.4f}".format(self.odds(unders)))
         
         ### Overall with each player throwing 1st leg equal amount           
         WINNER = self.WINNER1 + self.WINNER2
@@ -212,7 +212,7 @@ class Match:
             line = (unique_legs[i]+unique_legs[i+1])/2
             unders = cum_leg_freq[i]
             overs = 1-unders
-            print('Under/Over', line,':', "{0:.4f}".format(self.odds(unders)),'/',"{0:.4f}".format(self.odds(overs)))
+            print('Over/Under', line,':', "{0:.4f}".format(self.odds(overs)),'/',"{0:.4f}".format(self.odds(unders)))
 
         
         
