@@ -32,7 +32,7 @@ vangerwen = Player(name = 'Van Gerwen', treble_pct=0.469, single_pct=0.474, big_
 
 
 
-match1 = Match(ratajski,clayton)
+match1 = Match(clayton,ratajski)
 match2 = Match(wade, unterbuchner)
 match3 = Match(anderson, harms)
 match4 = Match(smith, vangerwen)
