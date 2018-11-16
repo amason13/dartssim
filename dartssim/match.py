@@ -214,6 +214,6 @@ class Match:
             overs = 1-unders
             print('Over/Under', line,':', "{0:.4f}".format(self.odds(overs)),'/',"{0:.4f}".format(self.odds(unders)))
 
-        print(self.player1.name, ' three dart average is ', self.player1.tda/self.player1.dart_count)
-        print(self.player2.name, ' three dart average is ', self.player2.tda/self.player2.dart_count)
+        print(self.player1.name, ' three dart average is ', 3*self.player1.tda/self.player1.dart_count)
+        print(self.player2.name, ' three dart average is ', 3*self.player2.tda/self.player2.dart_count)
         
