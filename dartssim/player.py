@@ -871,7 +871,7 @@ class Player:
         
     def big_treble(self):
         switch = np.random.random()
-        if switch<=0.15:
+        if switch<=0.2:
             N = 19
         else:
             N = 20    
