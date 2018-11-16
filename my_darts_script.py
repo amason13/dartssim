@@ -37,8 +37,8 @@ match2 = Match(wade, unterbuchner)
 match3 = Match(anderson, harms)
 match4 = Match(smith, vangerwen)
 
-match1.simulate(num_sims = 100000)
+match1.simulate(num_sims = 10000)
 #match2.simulate(num_sims = 100000)
 #match3.simulate(num_sims = 100000)
-match4.simulate(num_sims = 100000)
+match4.simulate(num_sims = 10000)
 
