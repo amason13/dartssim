@@ -3,10 +3,10 @@ from dartssim.player import Player
 
 #### Todays 1st match
 clayton = Player(name = 'Clayton', treble_pct=0.38, single_pct=0.522, big_miss_pct=0.038,small_miss_pct=0.061,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.328)
+                    bull_pct=0.3,outer_pct=0.55,double_pct=0.328)
 
 ratajski = Player(name = 'Ratajski', treble_pct=0.371, single_pct=0.544, big_miss_pct=0.034,small_miss_pct=0.051,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.354)
+                    bull_pct=0.3,outer_pct=0.55,double_pct=0.354)
 
 #### 2nd match
 wade = Player(name = 'Wade', treble_pct=0.393, single_pct=0.545, big_miss_pct=0.024,small_miss_pct=0.038,
@@ -24,10 +24,10 @@ harms = Player(name = 'Harms')#, treble_pct=0.356, single_pct=0.56, big_miss_pct
 
 #### 4th match
 smith = Player(name = 'Smith', treble_pct=0.419, single_pct=0.518, big_miss_pct=0.026,small_miss_pct=0.036,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.371)
+                    bull_pct=0.3,outer_pct=0.55,double_pct=0.371)
 
 vangerwen = Player(name = 'Van Gerwen', treble_pct=0.469, single_pct=0.474, big_miss_pct=0.026,small_miss_pct=0.03,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.428)
+                    bull_pct=0.3,outer_pct=0.55,double_pct=0.428)
 
 
 
