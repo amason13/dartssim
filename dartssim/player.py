@@ -928,7 +928,7 @@ class Player:
             print('Key error')
         
     def throw(self):
-        
+        darts = 0
         if self.score == 303:
             tot = self.treble(19)+self.treble(19)+self.treble(19)
             darts = 3
