@@ -13,6 +13,8 @@ class Player:
         self.double_pct = double_pct
         self.name = name
         
+        self.tda = 0
+        self.dart_count = 0
         self.score = 501
         self.op_score = 501
         self.t=self.treble_pct
@@ -929,10 +931,11 @@ class Player:
         
         if self.score == 303:
             tot = self.treble(19)+self.treble(19)+self.treble(19)
-        
+            darts = 3
+            
         elif self.score > 265:
             tot = self.treble(20)+self.big_treble()+self.big_treble()
-        
+            darts = 3
         else:
         
             target = self.score
@@ -942,6 +945,7 @@ class Player:
             
             if target - d1 == 0:
                 tot = d1
+                darts = 1
                 
             elif target - d1 <=1:
                 tot = 0
@@ -954,9 +958,12 @@ class Player:
                 
                 if new_target - d2 == 0:
                     tot = d1+d2
+                    darts = 2
                 elif new_target - d2 <=1:
                     tot = 0
+                    darts = 2
                 else:
+                    darts = 3
                     final_target = new_target - d2
                     s3,v3 = self.ONE[final_target]
                     d3 = self.dict_to_dart(s3,v3)
@@ -970,4 +977,6 @@ class Player:
                         tot = d1+d2+d3
                     
         self.score -= tot
+        self.dart_count += darts
+        self.tda += tot
     
