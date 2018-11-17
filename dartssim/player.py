@@ -465,7 +465,7 @@ class Player:
         147:('treble',20),
         148:('treble',20),
         149:('treble',20),
-        150:('treble',20),
+        150:('treble',19),
         151:('treble',20),
         152:('treble',20),
         153:('treble',20),
