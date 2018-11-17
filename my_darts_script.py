@@ -2,8 +2,8 @@ from dartssim.match import Match
 from dartssim.player import Player
 
 #### Todays 1st match
-clayton = Player(name = 'Clayton', treble_pct=0.39, single_pct=0.512, big_miss_pct=0.036,small_miss_pct=0.062,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.315)
+clayton = Player(name = 'Clayton', treble_pct=0.38, single_pct=0.522, big_miss_pct=0.038,small_miss_pct=0.061,
+                    bull_pct=0.35,outer_pct=0.6,double_pct=0.328)
 
 gerwen = Player(name = 'Van Gerwen', treble_pct=0.469, single_pct=0.474, big_miss_pct=0.026,small_miss_pct=0.03,
                     bull_pct=0.35,outer_pct=0.6,double_pct=0.428)
