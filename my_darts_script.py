@@ -3,10 +3,10 @@ from dartssim.player import Player
 
 #### Todays 1st match
 clayton = Player(name = 'Clayton', treble_pct=0.385, single_pct=0.515, big_miss_pct=0.038,small_miss_pct=0.062,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.41)
+                    bull_pct=0.35,outer_pct=0.6,double_pct=0.386)
 
 gerwen = Player(name = 'Van Gerwen', treble_pct=0.469, single_pct=0.474, big_miss_pct=0.026,small_miss_pct=0.03,
-                    bull_pct=0.35,outer_pct=0.6,double_pct=0.455)
+                    bull_pct=0.35,outer_pct=0.6,double_pct=0.458)
 '''
 #### 2nd match
 whitlock = Player(name = 'Whitlock', treble_pct=0.379, single_pct=0.542, big_miss_pct=0.03,small_miss_pct=0.049,
