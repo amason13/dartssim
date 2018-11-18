@@ -5,7 +5,7 @@ from dartssim.player import Player
 price = Player(name = 'Price',treble_pct=0.406, single_pct=0.492, big_miss_pct=0.041,small_miss_pct=0.062,
                     bull_pct=0.35,outer_pct=0.6,double_pct=0.365)
 
-suljovic = Player(name = 'Sujovic', treble_pct=0.403, single_pct=0.528, big_miss_pct=0.023,small_miss_pct=0.045,
+suljovic = Player(name = 'Suljovic', treble_pct=0.403, single_pct=0.528, big_miss_pct=0.023,small_miss_pct=0.045,
                     bull_pct=0.35,outer_pct=0.6,double_pct=0.395)
 '''
 #### 2nd match
@@ -19,7 +19,7 @@ clayton = Player(name = 'Clayton', treble_pct=0.385, single_pct=0.515, big_miss_
 
 
 
-match1 = Match(price, sujovic, first_to = 16)
+match1 = Match(price, suljovic, first_to = 16)
 #match2 = Match(whitlock, price,first_to = 16)
 
 
