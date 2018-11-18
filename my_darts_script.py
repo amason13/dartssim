@@ -19,7 +19,7 @@ clayton = Player(name = 'Clayton', treble_pct=0.385, single_pct=0.515, big_miss_
 
 
 
-match1 = Match(clayton, gerwen, first_to = 16)
+match1 = Match(price, sujovic, first_to = 16)
 #match2 = Match(whitlock, price,first_to = 16)
 
 
