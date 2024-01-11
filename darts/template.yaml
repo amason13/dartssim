@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  UFC Serverless App
+
+Globals:
+  Function:
+    Runtime: python3.7
+    Handler: lambda_function.lambda_handler
+    Timeout: 120
+    MemorySize: 128
+
+Resources:
+  DataScrape:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.8
+      CodeUri: darts_data_scraper/
+      MemorySize: 1024

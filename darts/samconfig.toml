@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "darts"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-bq0z6fdfjlw1"
+s3_prefix = "darts"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"

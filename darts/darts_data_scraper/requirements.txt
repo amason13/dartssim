@@ -1,0 +1,3 @@
+bs4==0.0.1
+requestium
+selenium==3.14.0
